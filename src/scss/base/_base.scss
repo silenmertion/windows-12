@@ -1,0 +1,10 @@
+body {
+  font-family: $accent-family;
+  color: $white;
+}
+
+.close-ui {
+  position: absolute;
+  inset: 0;
+  background-color: #ffffff00;
+}

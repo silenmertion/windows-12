@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/main.min.css" />
+    <title>Windows 12</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="close-ui"></div>
+      <!-- Header -->
+      <header class="taskbar">
+        <div class="taskbar__wrapper">
+          <!-- Start-Menu -->
+          <div class="start-menu">
+            <button class="start-btn">
+              <img
+                src="assets/ico/taskbar/ui-ico/start-menu.svg"
+                alt="start"
+                class="start-btn__img"
+              />
+            </button>
+
+            <section class="start-tray">
+              <div class="start-tray__wrapper">
+                <header class="start-tray-header">
+                  <div class="start-tray-header__wrapper">
+                    <input
+                      type="text"
+                      placeholder="Please enter application name"
+                      class="start-tray-header__input"
+                    />
+
+                    <button class="start-tray-header__btn" title="Start Search">
+                      <img
+                        src="assets/ico/taskbar/ui-ico/search-ico.svg"
+                        alt="start"
+                        class="search-img"
+                      />
+                    </button>
+                  </div>
+                </header>
+
+                <main class="start-tray-main">
+                  <div class="start-tray-main__header">
+                    <h4 class="start-tray-main__title">Your Apps</h4>
+
+                    <button class="start-tray-main__btn">All Apps</button>
+                  </div>
+
+                  <ul class="start-tray-main__app-list">
+                    <button class="app-item">
+                      <img
+                        src="assets/ico/taskbar/app-ico/explorer.svg"
+                        alt=""
+                        class="app-img"
+                      />
+                      <span class="app-text">Explorer</span>
+                    </button>
+
+                    <button class="app-item">
+                      <img
+                        src="assets/ico/taskbar/app-ico/edge.svg"
+                        alt=""
+                        class="app-img"
+                      />
+                      <span class="app-text">Microsoft Edge</span>
+                    </button>
+
+                    <button class="app-item">
+                      <img
+                        src="assets/ico/taskbar/app-ico/settings.svg"
+                        alt=""
+                        class="app-img"
+                      />
+                      <span class="app-text">Settings</span>
+                    </button>
+
+                    <button class="app-item">
+                      <img
+                        src="assets/ico/taskbar/app-ico/notepad.svg"
+                        alt=""
+                        class="app-img"
+                      />
+                      <span class="app-text">Notepad</span>
+                    </button>
+
+                    <button class="app-item">
+                      <img
+                        src="assets/ico/taskbar/app-ico/windows-defender.svg"
+                        alt=""
+                        class="app-img"
+                      />
+                      <span class="app-text">Defender</span>
+                    </button>
+                  </ul>
+                </main>
+
+                <footer class="start-tray-footer">
+                  <div class="start-tray-footer__wrapper">
+                    <div class="user-info">
+                      <img
+                        src="assets/ico/taskbar/ui-ico/user-ico.svg"
+                        alt="user-ico"
+                      />
+                      <span>Imran</span>
+                    </div>
+
+                    <div class="user-control-menu">
+                      <button class="control-btn">
+                        <img
+                          src="assets/ico/taskbar/ui-ico/turn.svg"
+                          alt="ui component"
+                        />
+                      </button>
+
+                      <button class="control-btn">
+                        <img
+                          src="assets/ico/taskbar/ui-ico/pencil.svg"
+                          alt="ui component"
+                        />
+                      </button>
+
+                      <button class="control-btn">
+                        <img
+                          src="assets/ico/taskbar/ui-ico/settings.svg"
+                          alt="ui component"
+                        />
+                      </button>
+                    </div>
+                    <!-- ./wrapper -->
+                  </div>
+                </footer>
+                <!-- ./wrapper -->
+              </div>
+            </section>
+
+            <button class="taskbar-search" title="Start Search">
+              <span class="search-text">Type here to search</span>
+
+              <img
+                src="assets/ico/taskbar/ui-ico/search-ico.svg"
+                alt="start"
+                class="search-img"
+              />
+            </button>
+
+            <section class="search-action">
+              <header class="search-header">
+                <div class="search-header__wrapper">
+                  <input
+                    type="text"
+                    placeholder="Please enter your request"
+                    class="search-header__input"
+                  />
+
+                  <button class="search-header__btn" title="Start Search">
+                    <img
+                      src="assets/ico/taskbar/ui-ico/search-ico.svg"
+                      alt="start"
+                      class="search-img"
+                    />
+                  </button>
+                </div>
+              </header>
+
+              <main class="search-main">
+                <p class="search-main__title">Your recent request:</p>
+                <div class="requests">
+                  <p class="requests__message">No recent requests</p>
+                </div>
+              </main>
+            </section>
+          </div>
+          <!-- Apps-Menu -->
+          <div class="apps-menu">
+            <button class="app-item">
+              <img
+                src="assets/ico/taskbar/app-ico/explorer.svg"
+                alt=""
+                class="app-img"
+              />
+            </button>
+
+            <button class="app-item">
+              <img
+                src="assets/ico/taskbar/app-ico/edge.svg"
+                alt=""
+                class="app-img"
+              />
+            </button>
+
+            <button class="app-item">
+              <img
+                src="assets/ico/taskbar/app-ico/settings.svg"
+                alt=""
+                class="app-img"
+              />
+            </button>
+
+            <button class="app-item">
+              <img
+                src="assets/ico/taskbar/app-ico/photos.svg"
+                alt=""
+                class="app-img"
+              />
+            </button>
+          </div>
+          <!-- Tray -->
+          <div class="tray">
+            <button class="tray-item">
+              <img
+                src="assets/ico/taskbar/ui-ico/wi-fi.svg"
+                alt="ui-ico"
+                class="tray-item__img"
+              />
+            </button>
+
+            <button class="tray-item">
+              <img
+                src="assets/ico/taskbar/ui-ico/volume.svg"
+                alt="ui-ico"
+                class="tray-item__img"
+              />
+            </button>
+
+            <button class="tray-item">
+              <img
+                src="assets/ico/taskbar/ui-ico/notifications.svg"
+                alt="ui-ico"
+                class="tray-item__img"
+              />
+            </button>
+          </div>
+
+          <section class="action-center">
+            <div class="action-center__wrapper">
+              <section class="notifications">
+                <div class="notifications__wrapper">
+                  <h5 class="notifications__title">Notifications</h5>
+                  <p class="notifications__message">No notifications</p>
+                </div>
+              </section>
+
+              <section class="player">
+                <div class="player__wrapper">
+                  <div class="player-info">
+                    <div class="player-platform">
+                      <img
+                        src="assets/ico/taskbar/app-ico/youtube.svg"
+                        alt="audio ico"
+                        class="player-platform__img"
+                      />
+                      <p class="player-playtform__title">YouTube</p>
+                    </div>
+
+                    <img
+                      src="assets/images/instasamka.png"
+                      alt="audio img"
+                      class="audio-img"
+                    />
+                  </div>
+
+                  <div class="player-content">
+                    <p class="player-content__title">
+                      Instasmka - В моей голове
+                    </p>
+
+                    <div class="player-control">
+                      <button class="player-btn">
+                        <img
+                          src="assets/ico/taskbar/ui-ico/play.svg"
+                          alt="btn"
+                          class="img-play"
+                        />
+                        <audio
+                          class="audio"
+                          src="assets/music/mybrain.mp3"
+                          loop
+                        ></audio>
+                      </button>
+
+                      <button class="slide-audio">
+                        <img
+                          src="assets/ico/taskbar/ui-ico/slide-audio.svg"
+                          alt="btn"
+                        />
+                      </button>
+                    </div>
+                  </div>
+                  <!-- /.wrapper -->
+                </div>
+              </section>
+
+              <section class="action-state">
+                <div class="action-tasks">
+                  <div class="action-task">
+                    <button class="action-symb">
+                      <img
+                        src="assets/ico/taskbar/ui-ico/wi-fi.svg"
+                        alt="task-ico"
+                        class="action-task-symbol"
+                      />
+                    </button>
+                    <hr class="action-line" />
+
+                    <button class="arrow__action">
+                      <img
+                        src="assets/ico/taskbar/ui-ico/arrow.svg"
+                        alt="arrow"
+                      />
+                    </button>
+                  </div>
+
+                  <div class="action-task">
+                    <button class="action-symb">
+                      <img
+                        src="assets/ico/taskbar/ui-ico/bluetooth.svg"
+                        alt="task-ico"
+                        class="action-task-symbol"
+                      />
+                    </button>
+                    <hr class="action-line" />
+
+                    <button class="arrow__action">
+                      <img
+                        src="assets/ico/taskbar/ui-ico/arrow.svg"
+                        alt="arrow"
+                      />
+                    </button>
+                  </div>
+
+                  <button class="action-task">
+                    <img
+                      src="assets/ico/taskbar/ui-ico/airplane.svg"
+                      alt="task-ico"
+                      class="action-task-symbol"
+                    />
+                  </button>
+
+                  <button class="action-task">
+                    <img
+                      src="assets/ico/taskbar/ui-ico/batterySucc.svg"
+                      alt="task-ico"
+                      class="action-task-symbol"
+                    />
+                  </button>
+
+                  <button class="action-task">
+                    <img
+                      src="assets/ico/taskbar/ui-ico/moon.svg"
+                      alt="task-ico"
+                      class="action-task-symbol"
+                    />
+                  </button>
+
+                  <div class="action-task">
+                    <button class="action-symb">
+                      <img
+                        src="assets/ico/taskbar/ui-ico/acceblity.svg"
+                        alt="task-ico"
+                        class="action-task-symbol"
+                      />
+                    </button>
+                    <hr class="action-line" />
+
+                    <button class="arrow__action">
+                      <img
+                        src="assets/ico/taskbar/ui-ico/arrow.svg"
+                        alt="arrow"
+                      />
+                    </button>
+                  </div>
+                </div>
+
+                <div class="action-range">
+                  <label class="action-range__line">
+                    <img
+                      src="assets/ico/taskbar/ui-ico/sun.svg"
+                      alt="ui element"
+                    />
+                    <input type="range" />
+                  </label>
+
+                  <label class="action-range__line">
+                    <img
+                      src="assets/ico/taskbar/ui-ico/phone.svg"
+                      alt="ui element"
+                    />
+                    <input type="range" />
+                  </label>
+                </div>
+
+                <div class="start-tray-footer">
+                  <div class="start-tray-footer__wrapper">
+                    <div class="user-info">
+                      <img
+                        src="assets/ico/taskbar/ui-ico/user-ico.svg"
+                        alt="user-ico"
+                      />
+                      <span>Imran</span>
+                    </div>
+
+                    <div class="user-control-menu">
+                      <button class="control-btn">
+                        <img
+                          src="assets/ico/taskbar/ui-ico/turn.svg"
+                          alt="ui component"
+                        />
+                      </button>
+
+                      <button class="control-btn">
+                        <img
+                          src="assets/ico/taskbar/ui-ico/pencil.svg"
+                          alt="ui component"
+                        />
+                      </button>
+
+                      <button class="control-btn">
+                        <img
+                          src="assets/ico/taskbar/ui-ico/settings.svg"
+                          alt="ui component"
+                        />
+                      </button>
+                    </div>
+                    <!-- ./wrapper -->
+                  </div>
+                </div>
+              </section>
+            </div>
+          </section>
+          <!-- Calendar -->
+          <button
+            onclick="alert('Извините! Я не успел это реализовать.')"
+            class="calendar-btn"
+          >
+            <div class="date">
+              <p id="date-time" class="date-text"></p>
+              <p id="date-days" class="date-text"></p>
+            </div>
+            <img
+              src="assets/ico/taskbar/app-ico/calendar.svg"
+              alt="calendar"
+              class="calendar-img"
+            />
+          </button>
+
+          <!-- ./wrapper -->
+        </div>
+      </header>
+    </div>
+    <!-- js -->
+    <script src="src/js/task.js"></script>
+    <script src="src/js/desktop.js"></script>
+  </body>
+</html>
